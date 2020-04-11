@@ -1,0 +1,120 @@
+Unsupposrted library path: C:\Users\Vikas Malepati\Documents\Programming\Entity-OBJ-Loader\build\classes\java\api
+Unsupposrted library path: C:\Users\Vikas Malepati\Documents\Programming\Entity-OBJ-Loader\build\classes\kotlin\api
+Unsupposrted library path: C:\Users\Vikas Malepati\Documents\Programming\Entity-OBJ-Loader\build\resources\api
+Symbol range map extraction starting
+Processing 38 files
+startProcessing "example/EntityPhoenix.java" md5: 2fada77bcb496dada06a7098f8feace9
+endProcessing "example/EntityPhoenix.java"
+
+startProcessing "example/EntityStupidAnimal.java" md5: 6cdb1d98589e7f952547a0d1a12cd762
+endProcessing "example/EntityStupidAnimal.java"
+
+startProcessing "example/ModEntities.java" md5: 5ce43b9847cc33e96918dffa8a5367ff
+endProcessing "example/ModEntities.java"
+
+startProcessing "example/ModelPhoenix.java" md5: b1d5d80ad3d84b73f9fb13fa8d3b0066
+endProcessing "example/ModelPhoenix.java"
+
+startProcessing "example/RenderPhoenix.java" md5: c396054609c6892fa53ba0051a559d4b
+endProcessing "example/RenderPhoenix.java"
+
+startProcessing "ru/timeconqueror/timecore/TimeCore.java" md5: c5a4106488a72dd8f466355b198dae88
+endProcessing "ru/timeconqueror/timecore/TimeCore.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/DirectionTetra.java" md5: 3f5daf2d25ad5c72aed7709c4e6e96d6
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/DirectionTetra.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/IntHelper.java" md5: b7cf16afe475412a5967d1fc552cbd39
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/IntHelper.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/RandHelper.java" md5: 6a04fee3a74f36b858ee95972b3babb7
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/RandHelper.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/RenderHelper.java" md5: 99ad835c04b0fea1fc275ae1cd3428c1
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/RenderHelper.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/SideRunnable.java" md5: 8909a2ee6ed6fad2bf3f3df8d97718c4
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/SideRunnable.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/client/ClientUtils.java" md5: 63e7d2e7c3320453698c310bdfa59879
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/client/ClientUtils.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/debug/LogHelper.java" md5: d3047ee726b85a93f0978ca5826ac21a
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/debug/LogHelper.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/debug/Profiler.java" md5: a9398cbb282ad96909abc3157fd9591c
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/debug/Profiler.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/observer/IListener.java" md5: a677dba87cf4f16398856ef67eabd949
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/observer/IListener.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/observer/IObservable.java" md5: cb3ce2ff9cb52264c0f03fd8e8453be6
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/observer/IObservable.java"
+
+startProcessing "ru/timeconqueror/timecore/api/auxiliary/observer/SimpleObservable.java" md5: e5cb02694a2351b292cf3a2a89fdbead
+endProcessing "ru/timeconqueror/timecore/api/auxiliary/observer/SimpleObservable.java"
+
+startProcessing "ru/timeconqueror/timecore/api/client/obj/ObjModelLoader.java" md5: f817564718b571302a8c3894cb7d03f9
+endProcessing "ru/timeconqueror/timecore/api/client/obj/ObjModelLoader.java"
+
+startProcessing "ru/timeconqueror/timecore/api/client/obj/model/AbstractObjModel.java" md5: 455a97376638fa27ef4f714a60290ac2
+endProcessing "ru/timeconqueror/timecore/api/client/obj/model/AbstractObjModel.java"
+
+startProcessing "ru/timeconqueror/timecore/api/client/obj/model/ObjModelBase.java" md5: e284fb3787c44fc5d0290f42ec21c27e
+endProcessing "ru/timeconqueror/timecore/api/client/obj/model/ObjModelBase.java"
+
+startProcessing "ru/timeconqueror/timecore/api/client/obj/model/ObjModelRenderer.java" md5: 7b1f66831a982855aef02a475996ffa1
+endProcessing "ru/timeconqueror/timecore/api/client/obj/model/ObjModelRenderer.java"
+
+startProcessing "ru/timeconqueror/timecore/api/registry/EasyRegistry.java" md5: 2c45b9e849aa8df06ce682fc78f688aa
+endProcessing "ru/timeconqueror/timecore/api/registry/EasyRegistry.java"
+
+startProcessing "ru/timeconqueror/timecore/client/command/CommandClientMain.java" md5: f4c0e3fbab20482fae2d6a6620138dfb
+endProcessing "ru/timeconqueror/timecore/client/command/CommandClientMain.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/generator/ObjFileGenerator.java" md5: 718432c147d1ef3251a9b1d795513037
+endProcessing "ru/timeconqueror/timecore/client/obj/generator/ObjFileGenerator.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/ModelFormatException.java" md5: 64785ef393722efb0d91ff0f385adac4
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/ModelFormatException.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/ObjModel.java" md5: 54cd72d2106c0008826787fb21b44c5f
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/ObjModel.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder.java" md5: c8016270d8954d210fba1fc894743e47
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/model/ObjModelBiped.java" md5: 12c596583960276ba1d19f31861bc3af
+    Compile Error! Pb(1102) At least one of the problems in category 'incomplete-switch' is not analysed due to a compiler option being ignored
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/model/ObjModelBiped.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/model/ObjModelQuadruped.java" md5: c0d814c3da1b88334478ade21afe90cd
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/model/ObjModelQuadruped.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/part/Face.java" md5: 3108d4cc7deefe46ab5c69d21a63a3e4
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/part/Face.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/part/ModelObject.java" md5: aaa61b7dd964d64676602f10c6915e7e
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/part/ModelObject.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate.java" md5: 8b48c55aaf3e274ad6e96bf1a37f0c64
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate.java"
+
+startProcessing "ru/timeconqueror/timecore/client/obj/loader/part/Vertex.java" md5: 26dba5e739779e67d4f5dcefab6f8f88
+endProcessing "ru/timeconqueror/timecore/client/obj/loader/part/Vertex.java"
+
+startProcessing "ru/timeconqueror/timecore/common/ResourceManager.java" md5: b18bf39cc9d3871c0bdad175bf1cbf2a
+endProcessing "ru/timeconqueror/timecore/common/ResourceManager.java"
+
+startProcessing "ru/timeconqueror/timecore/proxy/ClientProxy.java" md5: a846e88df99bcd340d8b6e5f03a4c2dc
+endProcessing "ru/timeconqueror/timecore/proxy/ClientProxy.java"
+
+startProcessing "ru/timeconqueror/timecore/proxy/CommonProxy.java" md5: feb318f320434bfad7a934e4772009e5
+endProcessing "ru/timeconqueror/timecore/proxy/CommonProxy.java"
+
+startProcessing "ru/timeconqueror/timecore/proxy/ServerProxy.java" md5: b798731fcedf41be667cf6bd34da1688
+endProcessing "ru/timeconqueror/timecore/proxy/ServerProxy.java"
+
+startProcessing "ru/timeconqueror/timecore/reference/FileReferences.java" md5: d6b30ca19a85ea29292be917831d37f2
+endProcessing "ru/timeconqueror/timecore/reference/FileReferences.java"
+

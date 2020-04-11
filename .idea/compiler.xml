@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Entity-OBJ-Loader.api" target="1.8" />
+      <module name="Entity-OBJ-Loader.main" target="1.8" />
+      <module name="Entity-OBJ-Loader.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

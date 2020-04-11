@@ -1,0 +1,713 @@
+Processing 38 files
+Start Processing: example/EntityPhoenix.java
+FOUND CONSTR method example/EntityPhoenix/EntityPhoenix (Lnet/minecraft/world/World;)V example/EntityPhoenix
+Rename method net/minecraft/entity/Entity/setSize (FF)V[267,274]::setSize->func_70105_a
+Rename method net/minecraft/entity/EntityAgeable/createChild (Lnet/minecraft/entity/EntityAgeable;)Lnet/minecraft/entity/EntityAgeable;[351,362]::createChild->func_90011_a
+Rename field net/minecraft/entity/Entity/world[427,432]::world->field_70170_p
+Import: net.minecraft.entity.EntityAgeable
+Import: net.minecraft.world.World
+Import: javax.annotation.Nullable
+End  Processing: example/EntityPhoenix.java
+
+Start Processing: example/EntityStupidAnimal.java
+FOUND CONSTR method example/EntityStupidAnimal/EntityStupidAnimal (Lnet/minecraft/world/World;)V example/EntityStupidAnimal
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[415,427]::initEntityAI->func_184651_r
+Rename field net/minecraft/entity/EntityLiving/tasks[446,451]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[461,468]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[519,524]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[534,541]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[596,601]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[611,618]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[671,676]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[686,693]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[754,759]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[769,776]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[841,846]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[856,863]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[944,949]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[959,966]::addTask->func_75776_a
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[1103,1124]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[1136,1157]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[1167,1185]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[1205,1215]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[1221,1233]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[1256,1274]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[1294,1308]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[1310,1322]::setBaseValue->func_111128_a
+Import: net.minecraft.entity.SharedMonsterAttributes
+Import: net.minecraft.entity.ai.*
+Import: net.minecraft.entity.passive.EntityAnimal
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.world.World
+End  Processing: example/EntityStupidAnimal.java
+
+Start Processing: example/ModEntities.java
+Import: net.minecraft.client.renderer.entity.Render
+Import: net.minecraft.client.renderer.entity.RenderManager
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Import: net.minecraftforge.fml.common.registry.EntityRegistry
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: ru.timeconqueror.timecore.TimeCore
+End  Processing: example/ModEntities.java
+
+Start Processing: example/ModelPhoenix.java
+FOUND CONSTR method example/ModelPhoenix/ModelPhoenix ()V example/ModelPhoenix
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[2809,2815]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[2960,2977]::setRotationAngles->func_78087_a
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[3077,3087]::pushMatrix->func_179094_E
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[3151,3160]::popMatrix->func_179121_F
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[3205,3222]::setRotationAngles->func_78087_a
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[3516,3519]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[3624,3627]::cos->func_76134_b
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[3717,3734]::setRotationAngles->func_78087_a
+Import: net.minecraft.client.renderer.GlStateManager
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.math.MathHelper
+Import: ru.timeconqueror.timecore.TimeCore
+Import: ru.timeconqueror.timecore.api.client.obj.ObjModelLoader
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelBase
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelRenderer
+End  Processing: example/ModelPhoenix.java
+
+Start Processing: example/RenderPhoenix.java
+FOUND CONSTR method example/RenderPhoenix/RenderPhoenix (Lnet/minecraft/client/renderer/entity/RenderManager;)V example/RenderPhoenix
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[558,574]::getEntityTexture->func_110775_a
+Rename method net/minecraft/client/renderer/entity/RenderLivingBase/prepareScale (Lnet/minecraft/entity/EntityLivingBase;F)F[718,730]::prepareScale->func_188322_c
+Rename method net/minecraft/client/renderer/GlStateManager/enableRescaleNormal ()V[811,830]::enableRescaleNormal->func_179091_B
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[851,857]::rotate->func_179114_b
+Rename field net/minecraft/entity/Entity/posY[900,904]::posY->field_70163_u
+Rename method net/minecraft/client/renderer/entity/RenderLivingBase/preRenderCallback (Lnet/minecraft/entity/EntityLivingBase;F)V[932,949]::preRenderCallback->func_77041_b
+Import: net.minecraft.client.renderer.GlStateManager
+Import: net.minecraft.client.renderer.entity.RenderLiving
+Import: net.minecraft.client.renderer.entity.RenderManager
+Import: net.minecraft.util.ResourceLocation
+Import: ru.timeconqueror.timecore.TimeCore
+Import: javax.annotation.Nullable
+End  Processing: example/RenderPhoenix.java
+
+Start Processing: ru/timeconqueror/timecore/TimeCore.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: ru.timeconqueror.timecore.api.auxiliary.debug.LogHelper
+Import: ru.timeconqueror.timecore.proxy.CommonProxy
+Import: java.util.Random
+End  Processing: ru/timeconqueror/timecore/TimeCore.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/DirectionTetra.java
+FOUND CONSTR method ru/timeconqueror/timecore/api/auxiliary/DirectionTetra/DirectionTetra (IILjava/lang/String;II)V ru/timeconqueror/timecore/api/auxiliary/DirectionTetra
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[1586,1589]::add->func_177982_a
+Rename method net/minecraft/util/IStringSerializable/getName ()Ljava/lang/String;[1684,1691]::getName->func_176610_l
+Import: net.minecraft.util.IStringSerializable
+Import: net.minecraft.util.math.BlockPos
+Import: org.jetbrains.annotations.NotNull
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/DirectionTetra.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/IntHelper.java
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/IntHelper.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/RandHelper.java
+Import: ru.timeconqueror.timecore.TimeCore
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/RandHelper.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/RenderHelper.java
+Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[415,426]::getInstance->func_178181_a
+Rename method net/minecraft/client/renderer/Tessellator/getBuffer ()Lnet/minecraft/client/renderer/BufferBuilder;[492,501]::getBuffer->func_178180_c
+Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[1942,1947]::begin->func_181668_a
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX[1992,2004]::POSITION_TEX->field_181707_g
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[2031,2034]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[2061,2064]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[2127,2136]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[2166,2169]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[2205,2208]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[2289,2298]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[2328,2331]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[2375,2378]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[2476,2485]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[2515,2518]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[2553,2556]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[2636,2645]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/Tessellator/draw ()V[2673,2677]::draw->func_78381_a
+Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[4132,4137]::begin->func_181668_a
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX[4182,4194]::POSITION_TEX->field_181707_g
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4221,4224]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4251,4254]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4317,4326]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4356,4359]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4395,4398]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4472,4481]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4511,4514]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4558,4561]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4645,4654]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4684,4687]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4722,4725]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4798,4807]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/Tessellator/draw ()V[4835,4839]::draw->func_78381_a
+Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[6383,6388]::begin->func_181668_a
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX[6433,6445]::POSITION_TEX->field_181707_g
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6472,6475]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[6502,6505]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[6580,6589]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6619,6622]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[6658,6661]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[6754,6763]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6793,6796]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[6840,6843]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[6953,6962]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6992,6995]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[7030,7033]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[7125,7134]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/Tessellator/draw ()V[7162,7166]::draw->func_78381_a
+Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[8643,8648]::begin->func_181668_a
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX[8693,8705]::POSITION_TEX->field_181707_g
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[8732,8735]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[8762,8765]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[8840,8849]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[8879,8882]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[8918,8921]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[9007,9016]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[9046,9049]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[9093,9096]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[9192,9201]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[9231,9234]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[9269,9272]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[9357,9366]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/Tessellator/draw ()V[9394,9398]::draw->func_78381_a
+Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[13534,13539]::begin->func_181668_a
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX[13584,13596]::POSITION_TEX->field_181707_g
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[13623,13626]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[13653,13656]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[13673,13682]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[13712,13715]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[13751,13754]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[13771,13780]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[13810,13813]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[13857,13860]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[13877,13886]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[13916,13919]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[13954,13957]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[13974,13983]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/Tessellator/draw ()V[14011,14015]::draw->func_78381_a
+Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;FFIZ)I[14401,14411]::drawString->func_175065_a
+Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;FFIZ)I[14838,14848]::drawString->func_175065_a
+Rename method net/minecraft/client/gui/FontRenderer/getStringWidth (Ljava/lang/String;)I[15303,15317]::getStringWidth->func_78256_a
+Rename method net/minecraft/client/gui/FontRenderer/getStringWidth (Ljava/lang/String;)I[15796,15810]::getStringWidth->func_78256_a
+Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[16261,16272]::FONT_HEIGHT->field_78288_b
+Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[16750,16761]::FONT_HEIGHT->field_78288_b
+Rename method net/minecraft/client/gui/FontRenderer/getStringWidth (Ljava/lang/String;)I[17200,17214]::getStringWidth->func_78256_a
+Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[17244,17255]::FONT_HEIGHT->field_78288_b
+Rename method net/minecraft/client/gui/FontRenderer/getStringWidth (Ljava/lang/String;)I[17726,17740]::getStringWidth->func_78256_a
+Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[17770,17781]::FONT_HEIGHT->field_78288_b
+FOUND CONSTR method ru/timeconqueror/timecore/api/auxiliary/RenderHelper/TexturedRect/TexturedRect (FFFFFF)V ru/timeconqueror/timecore/api/auxiliary/RenderHelper/TexturedRect
+Import: net.minecraft.client.gui.FontRenderer
+Import: net.minecraft.client.renderer.BufferBuilder
+Import: net.minecraft.client.renderer.Tessellator
+Import: net.minecraft.client.renderer.vertex.DefaultVertexFormats
+Import: org.lwjgl.opengl.GL11
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/RenderHelper.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/SideRunnable.java
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/SideRunnable.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/client/ClientUtils.java
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[416,428]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[431,448]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[592,603]::bindTexture->func_110577_a
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.renderer.texture.TextureManager
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/client/ClientUtils.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/debug/LogHelper.java
+FOUND CONSTR method ru/timeconqueror/timecore/api/auxiliary/debug/LogHelper/LogHelper (Ljava/lang/String;)V ru/timeconqueror/timecore/api/auxiliary/debug/LogHelper
+Import: net.minecraft.launchwrapper.Launch
+Import: net.minecraft.util.text.TextFormatting
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: org.apache.logging.log4j.LogManager
+Import: org.apache.logging.log4j.Logger
+Import: ru.timeconqueror.timecore.TimeCore
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/debug/LogHelper.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/debug/Profiler.java
+FOUND CONSTR method ru/timeconqueror/timecore/api/auxiliary/debug/Profiler/Profiler ()V ru/timeconqueror/timecore/api/auxiliary/debug/Profiler
+Import: java.util.HashMap
+Import: java.util.LinkedList
+Import: java.util.List
+Import: java.util.Map
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/debug/Profiler.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/observer/IListener.java
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/observer/IListener.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/observer/IObservable.java
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/observer/IObservable.java
+
+Start Processing: ru/timeconqueror/timecore/api/auxiliary/observer/SimpleObservable.java
+FOUND CONSTR method ru/timeconqueror/timecore/api/auxiliary/observer/SimpleObservable/SimpleObservable (Ljava/lang/Object;)V ru/timeconqueror/timecore/api/auxiliary/observer/SimpleObservable
+Import: java.util.ArrayList
+End  Processing: ru/timeconqueror/timecore/api/auxiliary/observer/SimpleObservable.java
+
+Start Processing: ru/timeconqueror/timecore/api/client/obj/ObjModelLoader.java
+Import: net.minecraft.util.ResourceLocation
+Import: ru.timeconqueror.timecore.api.client.obj.model.AbstractObjModel
+Import: ru.timeconqueror.timecore.client.obj.loader.ObjModelBuilder
+End  Processing: ru/timeconqueror/timecore/api/client/obj/ObjModelLoader.java
+
+Start Processing: ru/timeconqueror/timecore/api/client/obj/model/AbstractObjModel.java
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: java.util.ConcurrentModificationException
+Import: java.util.List
+End  Processing: ru/timeconqueror/timecore/api/client/obj/model/AbstractObjModel.java
+
+Start Processing: ru/timeconqueror/timecore/api/client/obj/model/ObjModelBase.java
+FOUND CONSTR method ru/timeconqueror/timecore/api/client/obj/model/ObjModelBase/ObjModelBase (Lru/timeconqueror/timecore/api/client/obj/model/AbstractObjModel;)V ru/timeconqueror/timecore/api/client/obj/model/ObjModelBase
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[1264,1276]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[1314,1326]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[1364,1376]::rotateAngleZ->field_78808_h
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointX[1414,1428]::rotationPointX->field_78800_c
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointY[1466,1480]::rotationPointY->field_78797_d
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointZ[1518,1532]::rotationPointZ->field_78798_e
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[1859,1871]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[1909,1921]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[1959,1971]::rotateAngleZ->field_78808_h
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointX[2011,2025]::rotationPointX->field_78800_c
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointY[2063,2077]::rotationPointY->field_78797_d
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointZ[2115,2129]::rotationPointZ->field_78798_e
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[2167,2173]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[2351,2357]::render->func_78088_a
+Import: net.minecraft.client.model.ModelBase
+Import: net.minecraft.client.model.ModelRenderer
+Import: net.minecraft.entity.Entity
+End  Processing: ru/timeconqueror/timecore/api/client/obj/model/ObjModelBase.java
+
+Start Processing: ru/timeconqueror/timecore/api/client/obj/model/ObjModelRenderer.java
+FOUND CONSTR method ru/timeconqueror/timecore/api/client/obj/model/ObjModelRenderer/ObjModelRenderer (Lru/timeconqueror/timecore/client/obj/loader/ObjModel;Lru/timeconqueror/timecore/client/obj/loader/part/ModelObject;)V ru/timeconqueror/timecore/api/client/obj/model/ObjModelRenderer
+Rename method net/minecraft/client/renderer/GlStateManager/callList (I)V[2669,2677]::callList->func_179148_o
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[2968,2978]::pushMatrix->func_179094_E
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[3017,3026]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[3205,3211]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[3387,3393]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[3570,3576]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[3699,3708]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/callList (I)V[3836,3844]::callList->func_179148_o
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[4115,4124]::popMatrix->func_179121_F
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[4541,4551]::pushMatrix->func_179094_E
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[4585,4594]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[4764,4770]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[4934,4940]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[5104,5110]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[5225,5234]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/callList (I)V[5358,5366]::callList->func_179148_o
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[5612,5621]::popMatrix->func_179121_F
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[6249,6258]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[6421,6430]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[6608,6614]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[6790,6796]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GlStateManager/rotate (FFFF)V[6972,6978]::rotate->func_179114_b
+Rename method net/minecraft/client/renderer/GLAllocation/generateDisplayLists (I)I[7283,7303]::generateDisplayLists->func_74526_a
+Rename method net/minecraft/client/renderer/GlStateManager/glNewList (II)V[7323,7332]::glNewList->func_187423_f
+Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[7423,7434]::getInstance->func_178181_a
+Rename method net/minecraft/client/renderer/Tessellator/getBuffer ()Lnet/minecraft/client/renderer/BufferBuilder;[7439,7448]::getBuffer->func_178180_c
+Rename method net/minecraft/client/renderer/GlStateManager/glEndList ()V[7525,7534]::glEndList->func_187415_K
+Import: net.minecraft.client.renderer.BufferBuilder
+Import: net.minecraft.client.renderer.GLAllocation
+Import: net.minecraft.client.renderer.GlStateManager
+Import: net.minecraft.client.renderer.Tessellator
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: org.lwjgl.opengl.GL11
+Import: ru.timeconqueror.timecore.client.obj.loader.ObjModel
+Import: ru.timeconqueror.timecore.client.obj.loader.part.ModelObject
+Import: ru.timeconqueror.timecore.client.obj.loader.part.Vertex
+Import: java.util.ArrayList
+Import: java.util.List
+End  Processing: ru/timeconqueror/timecore/api/client/obj/model/ObjModelRenderer.java
+
+Start Processing: ru/timeconqueror/timecore/api/registry/EasyRegistry.java
+FOUND CONSTR method ru/timeconqueror/timecore/api/registry/EasyRegistry/EasyRegistry (Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V ru/timeconqueror/timecore/api/registry/EasyRegistry
+Rename method net/minecraft/block/Block/setTranslationKey (Ljava/lang/String;)Lnet/minecraft/block/Block;[2294,2311]::setTranslationKey->func_149663_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2704,2718]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setTranslationKey (Ljava/lang/String;)Lnet/minecraft/block/Block;[2780,2797]::setTranslationKey->func_149663_c
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3058,3072]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setTranslationKey (Ljava/lang/String;)Lnet/minecraft/item/Item;[3131,3148]::setTranslationKey->func_77655_b
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[3336,3352]::getItemFromBlock->func_150898_a
+Import: net.minecraft.block.Block
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.SoundEvent
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.fml.client.registry.ClientRegistry
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.registry.ForgeRegistries
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: javax.annotation.Nullable
+End  Processing: ru/timeconqueror/timecore/api/registry/EasyRegistry.java
+
+Start Processing: ru/timeconqueror/timecore/client/command/CommandClientMain.java
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1451,1458]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[1534,1542]::getUsage->func_71518_a
+Rename method net/minecraft/command/ICommand/execute (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1655,1662]::execute->func_184881_a
+Rename method net/minecraft/command/ICommand/getUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[1831,1839]::getUsage->func_71518_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[2078,2089]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[2238,2249]::sendMessage->func_145747_a
+Rename method net/minecraft/command/CommandBase/buildString ([Ljava/lang/String;I)Ljava/lang/String;[2797,2808]::buildString->func_180529_a
+Rename method net/minecraft/nbt/JsonToNBT/getTagFromJson (Ljava/lang/String;)Lnet/minecraft/nbt/NBTTagCompound;[2880,2894]::getTagFromJson->func_180713_a
+Rename method net/minecraft/nbt/NBTTagCompound/setString (Ljava/lang/String;Ljava/lang/String;)V[3092,3101]::setString->func_74778_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3192,3204]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/world[3207,3212]::world->field_71441_e
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3419,3431]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getRenderManager ()Lnet/minecraft/client/renderer/entity/RenderManager;[3434,3450]::getRenderManager->func_175598_ae
+Rename method net/minecraft/client/renderer/entity/RenderManager/getEntityClassRenderObject (Ljava/lang/Class;)Lnet/minecraft/client/renderer/entity/Render;[3451,3477]::getEntityClassRenderObject->func_78715_a
+Rename method net/minecraft/entity/Entity/setDead ()V[3562,3569]::setDead->func_70106_y
+Rename method net/minecraft/client/renderer/entity/RenderLivingBase/getMainModel ()Lnet/minecraft/client/model/ModelBase;[3825,3837]::getMainModel->func_177087_b
+Rename method net/minecraft/entity/Entity/setDead ()V[3862,3869]::setDead->func_70106_y
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[3971,3978]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommand/getTabCompletions (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;[4044,4061]::getTabCompletions->func_184883_a
+Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[4203,4235]::getListOfStringsMatchingLastWord->func_71530_a
+Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;Ljava/util/Collection;)Ljava/util/List;[4360,4392]::getListOfStringsMatchingLastWord->func_175762_a
+Rename method net/minecraft/entity/EntityList/getEntityNameList ()Ljava/util/Set;[4391,4408]::getEntityNameList->func_180124_b
+Rename method net/minecraft/entity/EntityList/createEntityFromNBT (Lnet/minecraft/nbt/NBTTagCompound;Lnet/minecraft/world/World;)Lnet/minecraft/entity/Entity;[4606,4625]::createEntityFromNBT->func_75615_a
+FOUND CONSTR method ru/timeconqueror/timecore/client/command/CommandClientMain/Commands/Commands (Ljava/lang/String;)V ru/timeconqueror/timecore/client/command/CommandClientMain/Commands
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.model.ModelBase
+Import: net.minecraft.client.renderer.entity.Render
+Import: net.minecraft.client.renderer.entity.RenderLivingBase
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.CommandException
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.command.WrongUsageException
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.entity.EntityList
+Import: net.minecraft.nbt.JsonToNBT
+Import: net.minecraft.nbt.NBTException
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.server.MinecraftServer
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextComponentTranslation
+Import: net.minecraft.world.World
+Import: net.minecraftforge.client.IClientCommand
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: ru.timeconqueror.timecore.TimeCore
+Import: ru.timeconqueror.timecore.client.obj.generator.ObjFileGenerator
+Import: ru.timeconqueror.timecore.reference.FileReferences
+Import: javax.annotation.Nullable
+Import: java.util.Collections
+Import: java.util.List
+End  Processing: ru/timeconqueror/timecore/client/command/CommandClientMain.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/generator/ObjFileGenerator.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/generator/ObjFileGenerator/ObjFileGenerator ()V ru/timeconqueror/timecore/client/obj/generator/ObjFileGenerator
+Rename field net/minecraft/client/model/ModelBase/textureWidth[1765,1777]::textureWidth->field_78090_t
+Rename field net/minecraft/client/model/ModelBase/textureHeight[1810,1823]::textureHeight->field_78089_u
+Rename field net/minecraft/client/model/ModelBase/boxList[1883,1890]::boxList->field_78092_r
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1995,2007]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[2010,2016]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[2024,2035]::sendMessage->func_145747_a
+Rename field net/minecraft/client/model/ModelRenderer/showModel[2481,2490]::showModel->field_78806_j
+Rename field net/minecraft/client/model/ModelRenderer/isHidden[2507,2515]::isHidden->field_78807_k
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointX[2702,2716]::rotationPointX->field_78800_c
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointY[2745,2759]::rotationPointY->field_78797_d
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointZ[2788,2802]::rotationPointZ->field_78798_e
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[2844,2856]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[2926,2938]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[3008,3020]::rotateAngleZ->field_78808_h
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[3154,3162]::cubeList->field_78804_l
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[3225,3233]::cubeList->field_78804_l
+Rename field net/minecraft/client/model/ModelBox/quadList[3300,3308]::quadList->field_78254_i
+Rename field net/minecraft/client/model/ModelRenderer/childModels[3626,3637]::childModels->field_78805_m
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointX[4020,4034]::rotationPointX->field_78800_c
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointY[4063,4077]::rotationPointY->field_78797_d
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointZ[4106,4120]::rotationPointZ->field_78798_e
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointX[4367,4381]::rotationPointX->field_78800_c
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointY[4413,4427]::rotationPointY->field_78797_d
+Rename field net/minecraft/client/model/ModelRenderer/rotationPointZ[4459,4473]::rotationPointZ->field_78798_e
+Rename field net/minecraft/client/model/TexturedQuad/vertexPositions[6901,6916]::vertexPositions->field_78239_a
+Rename field net/minecraft/client/model/PositionTextureVertex/vector3D[6918,6926]::vector3D->field_78243_a
+Rename method net/minecraft/util/math/Vec3d/subtractReverse (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;[6932,6947]::subtractReverse->func_72444_a
+Rename field net/minecraft/client/model/TexturedQuad/vertexPositions[6950,6965]::vertexPositions->field_78239_a
+Rename field net/minecraft/client/model/PositionTextureVertex/vector3D[6967,6975]::vector3D->field_78243_a
+Rename field net/minecraft/client/model/TexturedQuad/vertexPositions[7011,7026]::vertexPositions->field_78239_a
+Rename field net/minecraft/client/model/PositionTextureVertex/vector3D[7028,7036]::vector3D->field_78243_a
+Rename method net/minecraft/util/math/Vec3d/subtractReverse (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;[7042,7057]::subtractReverse->func_72444_a
+Rename field net/minecraft/client/model/TexturedQuad/vertexPositions[7060,7075]::vertexPositions->field_78239_a
+Rename field net/minecraft/client/model/PositionTextureVertex/vector3D[7077,7085]::vector3D->field_78243_a
+Rename method net/minecraft/util/math/Vec3d/crossProduct (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;[7123,7135]::crossProduct->func_72431_c
+Rename method net/minecraft/util/math/Vec3d/normalize ()Lnet/minecraft/util/math/Vec3d;[7143,7152]::normalize->func_72432_b
+Rename field net/minecraft/util/math/Vec3d/x[7201,7202]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[7258,7259]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[7315,7316]::z->field_72449_c
+Rename field net/minecraft/client/model/TexturedQuad/vertexPositions[7581,7596]::vertexPositions->field_78239_a
+Rename field net/minecraft/client/model/PositionTextureVertex/vector3D[7645,7653]::vector3D->field_78243_a
+Rename field net/minecraft/util/math/Vec3d/x[7659,7660]::x->field_72450_a
+Rename field net/minecraft/client/model/PositionTextureVertex/vector3D[7689,7697]::vector3D->field_78243_a
+Rename field net/minecraft/util/math/Vec3d/y[7703,7704]::y->field_72448_b
+Rename field net/minecraft/client/model/PositionTextureVertex/vector3D[7733,7741]::vector3D->field_78243_a
+Rename field net/minecraft/util/math/Vec3d/z[7747,7748]::z->field_72449_c
+Rename field net/minecraft/client/model/PositionTextureVertex/texturePositionX[8302,8318]::texturePositionX->field_78241_b
+Rename field net/minecraft/client/model/PositionTextureVertex/texturePositionY[8331,8347]::texturePositionY->field_78242_c
+Rename field net/minecraft/client/model/ModelRenderer/boxName[9132,9139]::boxName->field_78802_n
+Rename field net/minecraft/client/model/ModelRenderer/boxName[9166,9173]::boxName->field_78802_n
+Rename field net/minecraft/client/model/ModelRenderer/boxName[9237,9244]::boxName->field_78802_n
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[9550,9562]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[9565,9571]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[9579,9590]::sendMessage->func_145747_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[9955,9967]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[9970,9976]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[9984,9995]::sendMessage->func_145747_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[10334,10346]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[10349,10355]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[10363,10374]::sendMessage->func_145747_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[10580,10592]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[10595,10601]::player->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[10609,10624]::sendChatMessage->func_71165_d
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.model.*
+Import: net.minecraft.util.math.Vec3d
+Import: net.minecraft.util.text.TextComponentTranslation
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: org.apache.commons.compress.utils.Charsets
+Import: org.apache.commons.io.FileUtils
+Import: java.io.File
+Import: java.io.IOException
+Import: java.util.ArrayList
+Import: java.util.List
+End  Processing: ru/timeconqueror/timecore/client/obj/generator/ObjFileGenerator.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/ModelFormatException.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ModelFormatException/ModelFormatException ()V ru/timeconqueror/timecore/client/obj/loader/ModelFormatException
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ModelFormatException/ModelFormatException (Ljava/lang/String;Ljava/lang/Throwable;)V ru/timeconqueror/timecore/client/obj/loader/ModelFormatException
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ModelFormatException/ModelFormatException (Ljava/lang/String;)V ru/timeconqueror/timecore/client/obj/loader/ModelFormatException
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ModelFormatException/ModelFormatException (Ljava/lang/Throwable;)V ru/timeconqueror/timecore/client/obj/loader/ModelFormatException
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/ModelFormatException.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/ObjModel.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ObjModel/ObjModel (Ljava/util/List;)V ru/timeconqueror/timecore/client/obj/loader/ObjModel
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ObjModel/ObjModel ()V ru/timeconqueror/timecore/client/obj/loader/ObjModel
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: ru.timeconqueror.timecore.TimeCore
+Import: ru.timeconqueror.timecore.api.client.obj.model.AbstractObjModel
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelRenderer
+Import: java.util.ArrayList
+Import: java.util.ConcurrentModificationException
+Import: java.util.List
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/ObjModel.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder/ObjModelBuilder (Lnet/minecraft/util/ResourceLocation;)V ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[7965,7977]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getResourceManager ()Lnet/minecraft/client/resources/IResourceManager;[7980,7998]::getResourceManager->func_110442_L
+Rename method net/minecraft/client/resources/IResourceManager/getResource (Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/client/resources/IResource;[7996,8007]::getResource->func_110536_a
+Rename method net/minecraft/client/resources/IResource/getInputStream ()Ljava/io/InputStream;[8117,8131]::getInputStream->func_110527_b
+Rename method net/minecraft/util/ResourceLocation/getPath ()Ljava/lang/String;[10563,10570]::getPath->func_110623_a
+Rename method net/minecraft/util/ResourceLocation/getNamespace ()Ljava/lang/String;[10946,10958]::getNamespace->func_110624_b
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[11216,11228]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getResourceManager ()Lnet/minecraft/client/resources/IResourceManager;[11231,11249]::getResourceManager->func_110442_L
+Rename method net/minecraft/client/resources/IResourceManager/getResource (Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/client/resources/IResource;[11247,11258]::getResource->func_110536_a
+Rename method net/minecraft/client/resources/IResource/getInputStream ()Ljava/io/InputStream;[11370,11384]::getInputStream->func_110527_b
+Rename method net/minecraft/util/ResourceLocation/getPath ()Ljava/lang/String;[12221,12228]::getPath->func_110623_a
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder/RPVertex/RPVertex (Ljava/lang/String;Lru/timeconqueror/timecore/client/obj/loader/part/Vertex;)V ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder/RPVertex
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.resources.IResource
+Import: net.minecraft.util.ResourceLocation
+Import: org.lwjgl.opengl.GL11
+Import: ru.timeconqueror.timecore.TimeCore
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelRenderer
+Import: ru.timeconqueror.timecore.client.obj.loader.part.Face
+Import: ru.timeconqueror.timecore.client.obj.loader.part.ModelObject
+Import: ru.timeconqueror.timecore.client.obj.loader.part.TextureCoordinate
+Import: ru.timeconqueror.timecore.client.obj.loader.part.Vertex
+Import: java.io.BufferedReader
+Import: java.io.FileNotFoundException
+Import: java.io.IOException
+Import: java.io.InputStreamReader
+Import: java.util.ArrayList
+Import: java.util.regex.Matcher
+Import: java.util.regex.Pattern
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/ObjModelBuilder.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/model/ObjModelBiped.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/model/ObjModelBiped/ObjModelBiped (Lru/timeconqueror/timecore/client/obj/loader/ObjModel;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V ru/timeconqueror/timecore/client/obj/loader/model/ObjModelBiped
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[2333,2339]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[2484,2501]::setRotationAngles->func_78087_a
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[2601,2611]::pushMatrix->func_179094_E
+Rename field net/minecraft/client/model/ModelBase/isChild[2636,2643]::isChild->field_78091_s
+Rename method net/minecraft/client/renderer/GlStateManager/scale (FFF)V[2708,2713]::scale->func_179152_a
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[2771,2780]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[2877,2886]::popMatrix->func_179121_F
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[2921,2931]::pushMatrix->func_179094_E
+Rename method net/minecraft/client/renderer/GlStateManager/scale (FFF)V[2965,2970]::scale->func_179152_a
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[3025,3034]::translate->func_179109_b
+Rename method net/minecraft/entity/Entity/isSneaking ()Z[3308,3318]::isSneaking->func_70093_af
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[3358,3367]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[3676,3685]::popMatrix->func_179121_F
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[4056,4073]::setRotationAngles->func_78087_a
+Rename method net/minecraft/entity/EntityLivingBase/getTicksElytraFlying ()I[4293,4313]::getTicksElytraFlying->func_184599_cB
+Rename field net/minecraft/entity/Entity/motionX[4667,4674]::motionX->field_70159_w
+Rename field net/minecraft/entity/Entity/motionX[4692,4699]::motionX->field_70159_w
+Rename field net/minecraft/entity/Entity/motionY[4717,4724]::motionY->field_70181_x
+Rename field net/minecraft/entity/Entity/motionY[4742,4749]::motionY->field_70181_x
+Rename field net/minecraft/entity/Entity/motionZ[4767,4774]::motionZ->field_70179_y
+Rename field net/minecraft/entity/Entity/motionZ[4792,4799]::motionZ->field_70179_y
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[4977,4980]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[5113,5116]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[5317,5320]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[5428,5431]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelBase/isRiding[5698,5706]::isRiding->field_78093_q
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[6342,6345]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[6440,6443]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/sin (F)F[6539,6542]::sin->func_76126_a
+Rename method net/minecraft/util/math/MathHelper/sin (F)F[6630,6633]::sin->func_76126_a
+Rename method net/minecraft/client/model/ModelBase/setModelAttributes (Lnet/minecraft/client/model/ModelBase;)V[6696,6714]::setModelAttributes->func_178686_a
+Rename method net/minecraft/client/model/ModelBase/setModelAttributes (Lnet/minecraft/client/model/ModelBase;)V[6743,6761]::setModelAttributes->func_178686_a
+Rename field net/minecraft/client/model/ModelBiped/isSneak[6903,6910]::isSneak->field_78117_n
+Rename method net/minecraft/entity/EntityLivingBase/getPrimaryHand ()Lnet/minecraft/util/EnumHandSide;[7612,7626]::getPrimaryHand->func_184591_cq
+Rename field net/minecraft/entity/EntityLivingBase/swingingHand[7666,7678]::swingingHand->field_184622_au
+Rename method net/minecraft/util/EnumHandSide/opposite ()Lnet/minecraft/util/EnumHandSide;[7734,7742]::opposite->func_188468_a
+Import: net.minecraft.client.model.ModelBase
+Import: net.minecraft.client.model.ModelBiped
+Import: net.minecraft.client.renderer.GlStateManager
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.EnumHandSide
+Import: net.minecraft.util.math.MathHelper
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelBase
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelRenderer
+Import: ru.timeconqueror.timecore.client.obj.loader.ObjModel
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/model/ObjModelBiped.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/model/ObjModelQuadruped.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/model/ObjModelQuadruped/ObjModelQuadruped (Lru/timeconqueror/timecore/client/obj/loader/ObjModel;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V ru/timeconqueror/timecore/client/obj/loader/model/ObjModelQuadruped
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[2275,2281]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[2426,2443]::setRotationAngles->func_78087_a
+Rename field net/minecraft/client/model/ModelBase/isChild[2538,2545]::isChild->field_78091_s
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[2610,2620]::pushMatrix->func_179094_E
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[2654,2663]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[2793,2802]::popMatrix->func_179121_F
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[2837,2847]::pushMatrix->func_179094_E
+Rename method net/minecraft/client/renderer/GlStateManager/scale (FFF)V[2881,2886]::scale->func_179152_a
+Rename method net/minecraft/client/renderer/GlStateManager/translate (FFF)V[2941,2950]::translate->func_179109_b
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[3195,3204]::popMatrix->func_179121_F
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[3781,3798]::setRotationAngles->func_78087_a
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[4145,4148]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[4249,4252]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[4371,4374]::cos->func_76134_b
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[4493,4496]::cos->func_76134_b
+Import: net.minecraft.client.renderer.GlStateManager
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.util.math.MathHelper
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelBase
+Import: ru.timeconqueror.timecore.api.client.obj.model.ObjModelRenderer
+Import: ru.timeconqueror.timecore.client.obj.loader.ObjModel
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/model/ObjModelQuadruped.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/part/Face.java
+Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[975,980]::begin->func_181668_a
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX_NORMAL[1018,1037]::POSITION_TEX_NORMAL->field_181710_j
+Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[1071,1076]::begin->func_181668_a
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_NORMAL[1114,1129]::POSITION_NORMAL->field_181708_h
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[1249,1252]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[1384,1387]::tex->func_187315_a
+Rename method net/minecraft/client/renderer/BufferBuilder/normal (FFF)Lnet/minecraft/client/renderer/BufferBuilder;[1473,1479]::normal->func_181663_c
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[1529,1538]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[1590,1593]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/BufferBuilder/normal (FFF)Lnet/minecraft/client/renderer/BufferBuilder;[1700,1706]::normal->func_181663_c
+Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[1756,1765]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[1818,1829]::getInstance->func_178181_a
+Rename method net/minecraft/client/renderer/Tessellator/draw ()V[1834,1838]::draw->func_78381_a
+Rename method net/minecraft/util/math/Vec3d/crossProduct (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;[2178,2190]::crossProduct->func_72431_c
+Rename method net/minecraft/util/math/Vec3d/normalize ()Lnet/minecraft/util/math/Vec3d;[2195,2204]::normalize->func_72432_b
+Rename field net/minecraft/util/math/Vec3d/x[2259,2260]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[2295,2296]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[2331,2332]::z->field_72449_c
+Import: net.minecraft.client.renderer.BufferBuilder
+Import: net.minecraft.client.renderer.Tessellator
+Import: net.minecraft.client.renderer.vertex.DefaultVertexFormats
+Import: net.minecraft.util.math.Vec3d
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: org.lwjgl.opengl.GL11
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/part/Face.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/part/ModelObject.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/part/ModelObject/ModelObject ()V ru/timeconqueror/timecore/client/obj/loader/part/ModelObject
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/part/ModelObject/ModelObject (Ljava/lang/String;)V ru/timeconqueror/timecore/client/obj/loader/part/ModelObject
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/part/ModelObject/ModelObject (Ljava/lang/String;I)V ru/timeconqueror/timecore/client/obj/loader/part/ModelObject
+Import: net.minecraft.client.renderer.BufferBuilder
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: java.util.ArrayList
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/part/ModelObject.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate/TextureCoordinate (FF)V ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate/TextureCoordinate (FFF)V ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/part/TextureCoordinate.java
+
+Start Processing: ru/timeconqueror/timecore/client/obj/loader/part/Vertex.java
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/part/Vertex/Vertex (FF)V ru/timeconqueror/timecore/client/obj/loader/part/Vertex
+FOUND CONSTR method ru/timeconqueror/timecore/client/obj/loader/part/Vertex/Vertex (FFF)V ru/timeconqueror/timecore/client/obj/loader/part/Vertex
+End  Processing: ru/timeconqueror/timecore/client/obj/loader/part/Vertex.java
+
+Start Processing: ru/timeconqueror/timecore/common/ResourceManager.java
+Rename method net/minecraft/util/ResourceLocation/getNamespace ()Ljava/lang/String;[2687,2699]::getNamespace->func_110624_b
+Rename method net/minecraft/util/ResourceLocation/getPath ()Ljava/lang/String;[2728,2735]::getPath->func_110623_a
+Import: com.google.common.base.Charsets
+Import: com.google.common.io.CharSource
+Import: com.google.common.io.Resources
+Import: net.minecraft.util.ResourceLocation
+Import: java.io.InputStream
+Import: java.net.URL
+Import: java.nio.charset.Charset
+End  Processing: ru/timeconqueror/timecore/common/ResourceManager.java
+
+Start Processing: ru/timeconqueror/timecore/proxy/ClientProxy.java
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[776,791]::registerCommand->func_71560_a
+Import: net.minecraftforge.client.ClientCommandHandler
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: ru.timeconqueror.timecore.client.command.CommandClientMain
+End  Processing: ru/timeconqueror/timecore/proxy/ClientProxy.java
+
+Start Processing: ru/timeconqueror/timecore/proxy/CommonProxy.java
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+End  Processing: ru/timeconqueror/timecore/proxy/CommonProxy.java
+
+Start Processing: ru/timeconqueror/timecore/proxy/ServerProxy.java
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+End  Processing: ru/timeconqueror/timecore/proxy/ServerProxy.java
+
+Start Processing: ru/timeconqueror/timecore/reference/FileReferences.java
+End  Processing: ru/timeconqueror/timecore/reference/FileReferences.java
+
