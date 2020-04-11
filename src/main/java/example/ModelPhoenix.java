@@ -68,18 +68,18 @@ public class ModelPhoenix extends ObjModelBase {
         this.setRotationAngles(limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch, scale, entityIn);
         GlStateManager.pushMatrix();
 
-        model.renderAll(scale);
+        model.renderAll(6);
 
         GlStateManager.popMatrix();
     }
 
     @Override
     public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor, Entity entityIn) {
-        this.head.rotateAngleY = netHeadYaw * 0.017453292F;
-        this.head.rotateAngleX = headPitch * 0.017453292F;
-
-        this.legLeft.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
-        this.legRight.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float) Math.PI) * 1.4F * limbSwingAmount;
+//        this.head.rotateAngleY = netHeadYaw * 0.017453292F;
+//        this.head.rotateAngleX = headPitch * 0.017453292F;
+//
+//        this.legLeft.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+//        this.legRight.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float) Math.PI) * 1.4F * limbSwingAmount;
 
         super.setRotationAngles(limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch, scaleFactor, entityIn);
     }
